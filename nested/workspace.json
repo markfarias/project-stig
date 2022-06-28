@@ -27,7 +27,7 @@
             "location": "[resourceGroup().location]",
             "properties": {
                 "sku": {
-                    "name": "Standard"
+                    "name": "Standalone"
                 },
                 "features": {
                     "searchVersion": 1
@@ -43,7 +43,7 @@
             },
             "properties": {
                 "sku": {
-                    "name": "Standard"
+                    "name": "Basic"
                 }
             }
         },
